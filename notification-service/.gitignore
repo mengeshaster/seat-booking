@@ -1,0 +1,13 @@
+# Local package rules also make this service safe to use independently.
+node_modules/
+dist/
+coverage/
+.cache/
+*.tsbuildinfo
+
+.env
+.env.*
+!.env.example
+
+logs/
+*.log

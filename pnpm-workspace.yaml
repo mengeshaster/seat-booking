@@ -1,0 +1,4 @@
+packages:
+  - "seat-booking-server"
+  - "notification-service"
+  - "packages/*"

@@ -1,0 +1,29 @@
+# Dependencies
+**/node_modules/
+
+# Build and test output
+**/dist/
+**/build/
+**/coverage/
+**/.cache/
+**/*.tsbuildinfo
+
+# Environment files (keep documented templates)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Runtime files
+**/logs/
+*.log
+*.sqlite
+*.sqlite3
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
